@@ -1,0 +1,104 @@
+html {
+    scroll-behavior: smooth; 
+}
+
+body {
+    overflow-x: hidden;
+    background-color: #e7af4fa8;
+}
+
+a {
+    text-decoration: none;
+}
+
+.header_container {
+    height: 4rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #a16a0ca3;
+    margin: 0px auto;
+}
+
+.header_nav {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+}
+
+.nav_item {
+    margin: 0 1.5rem;
+}
+
+.nav_link {
+    color: #141210;
+    font-size: 1.5rem;
+    font-weight: 600;
+    text-transform: capitalize;
+    letter-spacing: 0.1rem;
+    padding: 0.4rem 0.5rem;
+    transition: all 0.3s linear;
+    border-radius: 0.5rem;
+    text-shadow: 2px 2px 3px #1412109a;
+}
+
+.nav_link:hover {
+    width: 13rem;
+    height: 0.25rem;
+    background-color: #d4c19e;
+}
+
+.garage_wrapper,
+.winners_wrapper {
+    margin: 0px 1rem;
+}
+
+.garage_title,
+.winners_title {
+    color: #141210;
+    font-size: 2rem;
+    letter-spacing: 0.1rem;
+    line-height: 1.25;
+    margin-block-end: 0.5rem;
+    text-align: center;
+}
+
+.garage_page,
+.winners_page {
+    color: #141210;
+    font-size: 1.7rem;
+    letter-spacing: 0.1rem;
+    line-height: 1.25;
+    margin-block-start: 0.5rem;
+    margin-block-end: 0.5rem;
+}
+
+.btn {
+    text-transform: uppercase;
+    background: #a16a0c;
+    color: #eaded7;
+    padding: 0.2rem 0.53rem;
+    letter-spacing: 0.1rem;
+    display: inline-block;
+    transition: all 0.3s linear;
+    font-size: 0.8rem;
+    cursor: pointer;
+    box-shadow: 0 1px 3px rgb(0 0 0 / 20%);
+    border-radius: 0.25rem;
+    border-color: transparent;
+}
+
+.btn:hover {
+    background: #eaded7;
+    color: #a16a0c;
+}
+
+.pagination {
+    display: flex;
+    align-items: center;
+    margin: 1rem -1rem;
+}
+
+.pagination_btn {
+    margin: 0 1rem;
+}
