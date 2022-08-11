@@ -1,0 +1,21 @@
+.table {
+    width: 60%;
+	margin-bottom: 20px;
+	border: 1px solid #1412109a;
+	border-collapse: collapse; 
+}
+
+.title_name {
+	padding: 5px;
+	background: #eaded7;
+	border: 1px solid #1412109a;
+}
+
+.row_name {
+	padding: 5px;
+	background: #eaded77a;
+	border: 1px solid #1412109a;
+	text-transform: uppercase;
+    color: #141210;
+    letter-spacing: 0.1rem;
+}
