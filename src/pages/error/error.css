@@ -1,0 +1,19 @@
+.error_container {
+    height: 75vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.error_text {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.error_title {
+    color: #141210;
+    font-size: 2rem;
+    letter-spacing: 0.1rem;
+    line-height: 1.25;
+}
